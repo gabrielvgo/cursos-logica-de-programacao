@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<script>
+    
+    function pulaLinha() {
+        
+        document.write("<br>");
+
+    }
+
+    function mostra(resultado) {
+
+        document.write(resultado);
+        pulaLinha();
+    }
+
+    var totalAnos = 2023 - 1500;
+    var geracoes = totalAnos/28;
+
+    mostra("Desde o ano 1500, já se passaram " + Math.round(geracoes) + " gerações.");
+
+</script>
